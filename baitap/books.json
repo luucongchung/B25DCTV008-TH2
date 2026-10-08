@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "title": "Dế Mèn Phiêu Lưu Ký",
+    "author": "Tô Hoài",
+    "category": "Văn học",
+    "year": 1941
+  },
+  {
+    "id": "2",
+    "title": "Tắt Đèn",
+    "author": "Ngô Tất Tố",
+    "category": "Văn học",
+    "year": 1939
+  },
+  {
+    "id": "3",
+    "title": "Số Đỏ",
+    "author": "Vũ Trọng Phụng",
+    "category": "Văn học",
+    "year": 1936
+  },
+  {
+    "id": "4",
+    "title": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+    "author": "Nguyễn Nhật Ánh",
+    "category": "Văn học",
+    "year": 2010
+  },
+  {
+    "id": "5",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "category": "Công nghệ",
+    "year": 2008
+  },
+  {
+    "id": "6",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "category": "Công nghệ",
+    "year": 1999
+  },
+  {
+    "id": "7",
+    "title": "Tư Duy Nhanh Và Chậm",
+    "author": "Daniel Kahneman",
+    "category": "Tâm lý",
+    "year": 2011
+  },
+  {
+    "id": "8",
+    "title": "Đắc Nhân Tâm",
+    "author": "Dale Carnegie",
+    "category": "Tâm lý",
+    "year": 1936
+  },
+  {
+    "id": "9",
+    "title": "Nhà Giả Kim",
+    "author": "Paulo Coelho",
+    "category": "Văn học",
+    "year": 1988
+  },
+  {
+    "id": "10",
+    "title": "Kinh Tế Học Vĩ Mô",
+    "author": "N. Gregory Mankiw",
+    "category": "Kinh tế",
+    "year": 1992
+  }
+]
