@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.fav-badge {
+  background-color: #e74c3c;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.main-content {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.custom-section {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.custom-section h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 0.5rem;
+}
+
+.genre-filter {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #3498db;
+  background-color: transparent;
+  color: #3498db;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-btn.active, .filter-btn:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .book-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.book-card {
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  border-radius: 6px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-card h3 {
+  color: #34495e;
+  margin-bottom: 0.5rem;
+}
+
+.book-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.card-actions {
+  margin-top: 1rem;
+}
+
+.btn-fav {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-fav.active {
+  background-color: #27ae60;
+}
+
+.no-data {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #ecf0f1;
+  color: #7f8c8d;
+  margin-top: 2rem;
+}
